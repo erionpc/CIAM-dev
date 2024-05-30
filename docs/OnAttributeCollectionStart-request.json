@@ -1,0 +1,53 @@
+// PreSignUpChecks request:
+{
+  "type": "microsoft.graph.authenticationEvent.attributeCollectionStart",
+  "source": "/tenants/e5b9150c-2a16-4559-9c59-83a62b34ec9b/applications/00000003-0000-0000-c000-000000000000",
+  "data": {
+    "@odata.type": "microsoft.graph.onAttributeCollectionStartCalloutData",
+    "userSignUpInfo": {
+      "attributes": {
+        "givenName": {
+          "value": null,
+          "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+          "attributeType": "builtIn"
+        },
+        "surname": {
+          "value": null,
+          "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+          "attributeType": "builtIn"
+        }
+      },
+      "identities": [
+        {
+          "signInType": "emailAddress",
+          "issuer": "kochoepciam.onmicrosoft.com",
+          "issuerAssignedId": "reyihan816@acuxi.com"
+        }
+      ]
+    },
+    "tenantId": "e5b9150c-2a16-4559-9c59-83a62b34ec9b",
+    "authenticationEventListenerId": "ecf81f6f-e0c8-4ced-b548-6e33a2157b76",
+    "customAuthenticationExtensionId": "a3429bbf-6f3b-42ad-b09c-f29d7d5e644a",
+    "authenticationContext": {
+      "correlationId": "4b8cd943-72a7-4962-b5e4-e4a4de149c55",
+      "client": {
+        "ip": "85.9.192.213",
+        "locale": "it",
+        "market": "it"
+      },
+      "protocol": "OAUTH2.0",
+      "clientServicePrincipal": {
+        "id": "e14e648e-56ca-44f7-9a87-660edd682703",
+        "appId": "120bb5a4-f255-44c5-b387-81bc43857d18",
+        "appDisplayName": "CIAM test app",
+        "displayName": "CIAM test app"
+      },
+      "resourceServicePrincipal": {
+        "id": "122774ac-4f3c-4688-b48d-074d90c0a4a3",
+        "appId": "00000003-0000-0000-c000-000000000000",
+        "appDisplayName": "Microsoft Graph",
+        "displayName": "Microsoft Graph"
+      }
+    }
+  }
+}
