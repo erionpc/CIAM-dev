@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace ThirdSpace.BT.AzureFunctions.CommunicationManagement
+namespace CIAMAzureFunctions
 {
     public class CIAMTokenIssuanceStartFunction
     {
