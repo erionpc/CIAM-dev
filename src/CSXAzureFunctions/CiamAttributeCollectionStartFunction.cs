@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ThirdSpace.BT.AzureFunctions.CommunicationManagement
+namespace CIAMAzureFunctions
 {
     public class CiamAttributeCollectionStartFunction
     {

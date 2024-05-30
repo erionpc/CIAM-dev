@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace ThirdSpace.BT.AzureFunctions.CommunicationManagement
+namespace CIAMAzureFunctions
 {
     public class CiamAttributeCollectionSubmitFunction
     {
